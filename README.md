@@ -14,9 +14,9 @@ OCR Snipper is a simple utility that allows you to capture screen snips with OCR
 
 Feel free to enhance OCR Snipper and contribute to its development!
 
-## Setting up Maven and Java 17 on Windows, Linux, and Mac
+## Setting up Maven and Java 21 on Windows, Linux, and Mac
 
-This guide will walk you through the steps to download, install, and configure Maven and Java 17 on Windows, Linux, and Mac systems.
+This guide will walk you through the steps to download, install, and configure Maven and Java 21 on Windows, Linux, and Mac systems.
 ___
 
 # Download and Install Maven
@@ -50,11 +50,11 @@ ___
 5. **Verify Maven Installation**:
     - Open a command prompt or terminal and run `mvn -version` to confirm that Maven is correctly installed.
 
-## Download and Install Java 17
+## Download and Install Java 21
 
-1. **Download Java 17**:
+1. **Download Java 21**:
     - Visit the Oracle JDK download page: [Oracle JDK Downloads](https://www.oracle.com/java/technologies/javase-downloads.html) or [OpenJDK](https://jdk.java.net/).
-    - Download the latest version of Java 17 (or later) for your platform.
+    - Download the latest version of Java 21 (or later) for your platform.
 
 2. **Install Java**:
     - Run the downloaded installer and follow the installation instructions.
@@ -64,10 +64,10 @@ ___
         - Right-click on "This PC" or "My Computer" and select "Properties."
         - Click on "Advanced system settings."
         - Click "Environment Variables" in the "Advanced" tab.
-        - Under "System Variables," click "New" and add a variable named `JAVA_HOME` with the path to your Java 17 installation directory (e.g., `C:\Program Files\Java\jdk-17.x.x`).
+        - Under "System Variables," click "New" and add a variable named `JAVA_HOME` with the path to your Java 21 installation directory (e.g., `C:\Program Files\Java\jdk-17.x.x`).
     - For Linux and Mac:
         - Open a terminal and edit your shell profile file.
-        - Add the following line: `export JAVA_HOME=/usr/lib/jvm/jdk-17.x.x` (Linux) or `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.x.x/Contents/Home` (Mac).
+        - Add the following line: `export JAVA_HOME=/usr/lib/jvm/jdk-21.x.x` (Linux) or `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.x.x/Contents/Home` (Mac).
         - Reload your shell profile or restart the terminal.
 
 4. **Add Java to the System Path**:
@@ -78,11 +78,11 @@ ___
         - The `bin` directory of Java is automatically included in your shell's `PATH` when you set `JAVA_HOME`.
 
 5. **Verify Java Installation**:
-    - Open a command prompt or terminal and run `java -version` to confirm that Java 17 is correctly installed.
+    - Open a command prompt or terminal and run `java -version` to confirm that Java 21 is correctly installed.
 
 ## Running Your Application
 
-Now that Maven and Java 17 are installed and configured:
+Now that Maven and Java 21 are installed and configured:
 
 1. Navigate to your project directory where the `pom.xml` file is located.
 
@@ -93,4 +93,4 @@ Now that Maven and Java 17 are installed and configured:
     - Package: `mvn package`
     - Run: `java -jar target/ocr-snipper-0.0.1-SNAPSHOT-jar-with-dependencies.jar`
 
-You are now ready to develop and run Java applications using Maven and Java 17 on your Windows, Linux, or Mac system.
+You are now ready to develop and run Java applications using Maven and Java 21 on your Windows, Linux, or Mac system.
