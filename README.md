@@ -64,10 +64,10 @@ ___
         - Right-click on "This PC" or "My Computer" and select "Properties."
         - Click on "Advanced system settings."
         - Click "Environment Variables" in the "Advanced" tab.
-        - Under "System Variables," click "New" and add a variable named `JAVA_HOME` with the path to your Java 21 installation directory (e.g., `C:\Program Files\Java\jdk-17.x.x`).
+        - Under "System Variables," click "New" and add a variable named `JAVA_HOME` with the path to your Java 21 installation directory (e.g., `C:\Program Files\Java\jdk-21.x.x`).
     - For Linux and Mac:
         - Open a terminal and edit your shell profile file.
-        - Add the following line: `export JAVA_HOME=/usr/lib/jvm/jdk-21.x.x` (Linux) or `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.x.x/Contents/Home` (Mac).
+        - Add the following line: `export JAVA_HOME=/usr/lib/jvm/jdk-21.x.x` (Linux) or `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.x.x/Contents/Home` (Mac).
         - Reload your shell profile or restart the terminal.
 
 4. **Add Java to the System Path**:
