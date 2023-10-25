@@ -8,8 +8,7 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.net.MalformedURLException;
-import java.nio.file.Paths;
+import java.util.Objects;
 import java.util.concurrent.Executors;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -112,11 +111,7 @@ class SnipperController extends MouseAdapter implements NativeKeyListener {
     }
 
     private void setIcon(JFrame frame) {
-        try {
-            var icon = new ImageIcon(Paths.get(ICON_PATH).toUri().toURL());
-            frame.setIconImage(icon.getImage());
-        } catch (MalformedURLException e) {
-            throw new RuntimeException(e);
-        }
+        var icon = new ImageIcon(Objects.requireNonNull(getClass().getClassLoader().getResource(ICON_PATH)));
+        frame.setIconImage(icon.getImage());
     }
 }
