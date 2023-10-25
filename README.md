@@ -13,13 +13,13 @@ OCR Snipper is a simple utility that allows you to capture screen snips with OCR
 - The initial version operates only on the monitor where it is executed.
 
 Feel free to enhance OCR Snipper and contribute to its development!
-
-## Setting up Maven and Java 21 on Windows, Linux, and Mac
-
-This guide will walk you through the steps to download, install, and configure Maven and Java 21 on Windows, Linux, and Mac systems.
 ___
 
-# Download and Install Maven
+# Setting up Maven and Java 21 on Windows, Linux, and Mac
+
+This guide will walk you through the steps to download, install, and configure Maven and Java 21 on Windows, Linux, and Mac systems.
+
+## Download and Install Maven
 
 1. **Download Maven**:
     - Visit the Apache Maven download page: [Maven Download](https://maven.apache.org/download.cgi)
