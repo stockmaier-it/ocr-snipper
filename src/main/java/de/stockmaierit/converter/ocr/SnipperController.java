@@ -15,8 +15,8 @@ import javax.swing.JFrame;
 
 class SnipperController extends MouseAdapter implements NativeKeyListener {
 
-    private static int START_CAPTURE_KEY = NativeKeyEvent.VC_SCROLL_LOCK;
-    private static int CLOSE_APP_KEY = NativeKeyEvent.VC_ESCAPE;
+    private static final int START_CAPTURE_KEY = NativeKeyEvent.VC_SCROLL_LOCK;
+    private static final int CLOSE_APP_KEY = NativeKeyEvent.VC_ESCAPE;
     private static final String ICON_PATH = "icon.png";
 
     private final CaptureRectangle captureRectangle;
